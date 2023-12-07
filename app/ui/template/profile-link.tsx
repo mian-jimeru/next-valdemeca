@@ -36,6 +36,7 @@ export default function ProfileLink(){
             {
                 links.map((link, indice) =>
                     <Link 
+                        key={indice}
                         href={link.href}
                         className={((active === indice) ? "bg-gray-100 " : "") + "block px-4 py-2 text-sm text-gray-700"}
                         role={"menuitem"}

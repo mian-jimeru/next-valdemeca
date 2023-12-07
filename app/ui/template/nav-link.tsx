@@ -7,19 +7,19 @@ export default function NavLink() {
 
     const links = [
         {
-            name: 'Dashboard',
-            href: '#'
+            name: 'Bienvenido',
+            href: '/'
         },
         {
-            name: 'Team',
-            href: '#'
+            name: 'Fotos',
+            href: '/ui/components/fotos'
         },
         {
-            name: 'Projects',
-            href: '#'
+            name: 'Comisión de fiestas',
+            href: '/ui/components/comision'
         },
         {
-            name: 'Calendar',
+            name: 'Contacto',
             href: '#'
         },
     ];
