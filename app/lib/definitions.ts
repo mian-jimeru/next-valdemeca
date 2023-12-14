@@ -1,7 +1,7 @@
 export type Usuario_comision = {
     id: number;
     nombre: string;
-    area: number;
+    area_fk: number;
     responsable:boolean;
   };
   export type Area_comision = {
