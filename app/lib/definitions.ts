@@ -13,3 +13,9 @@ export type Usuario_comision = {
     nombre: string;
     area: number;
   };
+  export type Usuario_area = {
+    id: number;
+    nombre: string;
+    area: string;
+    responsable:boolean;
+  };
